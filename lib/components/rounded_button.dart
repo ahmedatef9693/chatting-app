@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 
 
 class RoundedButton extends StatelessWidget {
   final Color buttonColor;
   final String buttonTitle;
   final Function buttonCallback;
-  RoundedButton({this.buttonColor,this.buttonTitle,@required this.buttonCallback});
+  RoundedButton({this.buttonColor,this.buttonTitle,this.buttonCallback});
   
   //() {);}
   //
